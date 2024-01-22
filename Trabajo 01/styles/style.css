@@ -1,0 +1,179 @@
+:root {
+    --primary: #A4CCC7;
+    --secondary: #2B2B2B;
+    --white: #DDDD;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    min-height: 100%;
+}
+
+.principal-info {
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+    padding-top: 40px;
+
+    width: 18%;
+
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+
+    background-color: var(--secondary);
+}
+
+.principal-info .personal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-bottom: 20px;
+}
+
+.principal-info .text {
+    text-align: justify;
+    font-style: normal;
+    line-height: normal;
+}
+
+.personal .photo {
+    width: 130px;
+    height: 130px;
+
+    border-radius: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.personal .text {
+    font-size: 14px;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+}
+
+.category .sub-title {
+    padding: 5px 0;
+
+    width: 200px;
+
+    font-size: 20px;
+    font-weight: 400;
+
+    border-bottom: 10px solid var(--primary);
+
+    margin-bottom: 5px;
+}
+
+.category .data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.category .data .icon {
+    width: 20px;
+    height: 20px;
+
+    font-size: 20px;
+
+    margin-right: 10px;
+}
+
+.category .text-list {
+    margin: 5px;
+    margin-left: 40px;
+
+    list-style-type: square;
+} 
+
+.category .text-list li {
+    margin-bottom: 5px;
+} 
+
+.experience-info {
+    display: flex;
+    flex-direction: column;
+
+    width: 82%;
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.experience-info .data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 200px;
+
+    color: white;
+
+    background-color: var(--primary);
+}
+
+.experience-info .data .title {
+    margin-left: 80px;
+
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.experience-info .data .subtitle {
+    margin-left: 80px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.experience-info .experience-data {
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 80px;
+    padding-top: 40px;
+    padding-bottom: 0;
+}
+
+.experience-data .category {
+    display: flex;
+    flex-direction: column;
+
+    width: 70%;
+}
+ 
+.experience-data .category .experience {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 10px;
+}
+
+.category .mini-title {
+    font-weight: bold;
+}
+
+.experience-data .category .academic {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 10px;
+}
