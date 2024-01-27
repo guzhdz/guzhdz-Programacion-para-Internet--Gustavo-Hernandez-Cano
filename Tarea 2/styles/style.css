@@ -1,0 +1,139 @@
+  :root {
+    --primary: #3D348B;
+    --secondary: #028090;
+    --tertiary: #00A896;
+    --tertiary-light: #02C39A;
+    --backgorund: #353535;
+    --white: #EEEEEE;
+    --danger: #D43D46;
+  }
+
+  html {
+      font-family: sans-serif;
+  }
+
+  body {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 200px 0px;
+
+    width: 100%;
+    height: 100vh;
+
+    background-color: var(--backgorund);
+  }
+
+  .title {
+    color: var(--tertiary);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    margin-bottom: 20px;
+  }
+
+  .explanation {
+    width: 60%;
+
+    color: var(--white);
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-bottom: 20px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 30px;
+  }
+
+  .form .label {
+    color: var(--white);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-bottom: 20px;
+  }
+
+  .form .guessField {
+    padding: 5px;
+
+    width: 300px;
+
+    font-size: 18px;
+
+    border-radius: 5px;
+    border: 2px solid var(--backgorund);
+
+    background-color: var(--white);
+
+    outline: none;
+
+    margin-bottom: 10px;
+  }
+
+  .form .guessSubmit {
+    margin-left: auto;
+  }
+
+  .button {
+    padding: 8px;
+
+    color: var(--white);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    background-color: var(--primary);
+
+    border: none;
+    border-radius: 4px;
+
+    transition: all .1s ease-in-out;
+  }
+
+  .button:hover {
+    cursor: pointer;
+
+    filter: brightness(90%);
+  }
+
+  .resultParas {
+    display: flex;
+    flex-direction: column;
+
+    width: 30%;
+  }
+
+  .resultParas .label {
+    color: var(--white);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-bottom: 10px;
+  }
+
+  .red{
+    color: red !important;
+  }
+
+  .green {
+    color: var(--tertiary-light) !important;
+  }
